@@ -38,10 +38,10 @@ jobs:
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-  slackNotificationArg:
-    name: Slack Notification
-    runs-on: ubuntu-latest
-    steps:
-      uses: Ilshidur/action-slack@2.0.2
-      with:
-        args: 'A new slack notification with arguments. ' # Optional
+  # slackNotificationArg:
+  #   name: Slack Notification
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     uses: Ilshidur/action-slack@2.0.2
+  #     with:
+  #       args: 'A new slack notification with arguments. ' # Optional
