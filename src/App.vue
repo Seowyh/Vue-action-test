@@ -12,6 +12,7 @@
           <span>{{ todo }}</span>
           <button class="delete-task-button" @click="deleteTask(todo)">Delete</button>
         </li>
+        <br>
       </ul>
     </div>
   </div>
